@@ -1,0 +1,19 @@
+## Langkah 9: Commit dan Push ke GitHub
+
+### 9.1. Setup Git dan Commit
+```bash
+# Initialize git (jika belum)
+git init
+
+# Add semua file
+git add .
+
+# Commit perubahan
+git commit -m "Initial commit: ARSITEK Token implementation with complete tokenomics"
+
+# Set remote origin
+git remote add origin https://github.com/your-username/ARSITEK-Token.git
+
+# Push ke main branch
+git branch -M main
+git push -u origin main
